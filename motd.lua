@@ -8,7 +8,7 @@ function LoadMotd()
 	-- Check if the file 'motd.txt' exists, if not, create it with default content:
 	if (not cFile:IsFile("motd.txt")) then
 		CreateFile = io.open( "motd.txt", "w" )
-		CreateFile:write("@6Welcome to the Cuberite test server!\n@6http://www.cuberite.org/\n@6Type /help for all commands")
+		CreateFile:write("@This server is using EbooMC as the core!")
 		CreateFile:close()
 	end
 
